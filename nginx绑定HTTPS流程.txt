@@ -1,0 +1,9 @@
+1.unbuntu安装nginx服务器
+apt-get install nginx
+nginx版本为 1.14
+2.服务器绑定域名
+在腾讯云上购买了域名在域名中绑定云服务器
+3.申请HTTPS证书
+在腾讯云上申请HTTPS证明并下载 解压 crk 和 key 到nginx的主目录
+4.编辑nginx的配置文件
+nginx的配置文件是sites-available的default ，编辑该文件并添加相关信息
